@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JKCaptionsHelper_Example' do
+  pod 'JKCaptionsHelper', :path => '../'
+
+  target 'JKCaptionsHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
