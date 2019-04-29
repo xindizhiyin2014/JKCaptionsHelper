@@ -1,0 +1,6 @@
+framework module JKCaptionsHelper {
+  umbrella header "JKCaptionsHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - JKCaptionsHelper (0.1.0)
+
+DEPENDENCIES:
+  - JKCaptionsHelper (from `../`)
+
+EXTERNAL SOURCES:
+  JKCaptionsHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JKCaptionsHelper: 2858822e79b5cdb480b99422e2dc707823fa4da7
+
+PODFILE CHECKSUM: 4db2430810578281d833eebe7c87edd59f3b2111
+
+COCOAPODS: 1.6.1

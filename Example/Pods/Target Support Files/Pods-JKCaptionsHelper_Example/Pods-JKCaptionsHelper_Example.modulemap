@@ -1,0 +1,6 @@
+framework module Pods_JKCaptionsHelper_Example {
+  umbrella header "Pods-JKCaptionsHelper_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
