@@ -6,12 +6,13 @@
 //
 
 import Foundation
-enum JKSubTitleType {
+
+public enum JKSubTitleType {
     case oneLanguage          // 单语言字幕模式
     case twoLanguage          // 双语言字幕模式
 }
 
-class JKSRTHelper :NSObject {
+@objcMembers public class JKSRTHelper :NSObject {
     
     private var beginTimes:[Float]?         // 字幕开始时间
     private var endTimes:[Float]?           // 字幕结束时间
@@ -20,17 +21,17 @@ class JKSRTHelper :NSObject {
     private var progressIndex = 0           // 字幕播放进度索引
     
     
-    class public func initWithFilePath(filePath:NSString!,subTitleType:JKSubTitleType!) -> JKSRTHelper{
+    public class func initWithFilePath(filePath:String!,subTitleType:JKSubTitleType!) -> JKSRTHelper{
         let data = NSData.init(contentsOfFile: filePath as String)
        return self.initWithData(data: data,subTitleType: subTitleType)
     }
     
-    class public func initWithString(content:String!,subTitleType:JKSubTitleType!) ->JKSRTHelper{
+    public class func initWithString(content:String!,subTitleType:JKSubTitleType!) ->JKSRTHelper{
         let data = content.data(using: .utf8, allowLossyConversion: true)
         return self.initWithData(data: data as NSData?,subTitleType: subTitleType)
     }
     
-    class public func initWithData(data:NSData?,subTitleType:JKSubTitleType!) -> JKSRTHelper{
+    public class func initWithData(data:NSData?,subTitleType:JKSubTitleType!) -> JKSRTHelper{
         let content = String(data: data! as Data, encoding: .utf8)
         let array = content?.components(separatedBy: "\n")
         var beginTimes = [Float]()
@@ -97,7 +98,7 @@ class JKSRTHelper :NSObject {
     
     }
     
-    class public func initWithArray(array:[NSDictionary]) -> JKSRTHelper{
+    public class func initWithArray(array:[NSDictionary]) -> JKSRTHelper{
         var beginTimes = [Float]()
         var endTimes = [Float]()
         var firstSubTitles = [String]()
