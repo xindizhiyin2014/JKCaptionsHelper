@@ -148,9 +148,13 @@ public enum JKSubTitleType {
             if time >= beiginTime && time <= endTime {
                 if let content = content {
                     let firstSubTitle = self.firstSubTitles![i]
-                    let secondSubTitle = self.secondSubTitles![i]
-                    
-                    content(firstSubTitle,secondSubTitle)
+                    if self.secondSubTitles != nil {
+                       let secondSubTitle = self.secondSubTitles![i]
+                        content(firstSubTitle,secondSubTitle)
+                    }else{
+                     content(firstSubTitle,nil)
+                    }
+                   
                 }
                 self.progressIndex = i
                 break

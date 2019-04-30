@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B0870392DF4DA66975BD0F0CA34F56D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0B0870392DF4DA66975BD0F0CA34F56D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		235C4656A69BB749744E0D93028A1AA0 /* Pods-JKCaptionsHelper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKCaptionsHelper_Tests-Info.plist"; sourceTree = "<group>"; };
 		291717EEE288CA13E11907D4319D1F4C /* Pods-JKCaptionsHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKCaptionsHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2BE885CFD1673CE2E88B2D8AC7B6D24A /* Pods-JKCaptionsHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKCaptionsHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -48,20 +48,20 @@
 		7BCE1BE5434CB6E8703A9618CDE19341 /* JKCaptionsHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JKCaptionsHelper-dummy.m"; sourceTree = "<group>"; };
 		807737405B61928CC394DBC4A67DD69F /* JKCaptionsHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKCaptionsHelper.xcconfig; sourceTree = "<group>"; };
 		8FFBBA97B53AEC52ED79EF9F93299CE2 /* Pods-JKCaptionsHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKCaptionsHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9506ECFECDA45B200BD1B5FE481C0F53 /* Pods_JKCaptionsHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKCaptionsHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A2E5D3184A769660529E297E4BE98B1 /* JKCaptionsHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKCaptionsHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9506ECFECDA45B200BD1B5FE481C0F53 /* Pods_JKCaptionsHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JKCaptionsHelper_Example.framework; path = "Pods-JKCaptionsHelper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A2E5D3184A769660529E297E4BE98B1 /* JKCaptionsHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JKCaptionsHelper.framework; path = JKCaptionsHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0C5E947CECB8DCF3B2848CFA95181F /* Pods-JKCaptionsHelper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKCaptionsHelper_Example-Info.plist"; sourceTree = "<group>"; };
-		9CF999D3B05F27984D05E0B5629DBFB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CF999D3B05F27984D05E0B5629DBFB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E8005C06A1B058FFA1527DC212EF9B0 /* JKSRTHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKSRTHelper.swift; path = JKCaptionsHelper/Classes/JKSRTHelper.swift; sourceTree = "<group>"; };
-		A0372CC088F2C39BFBB2F6A2D58CFDA0 /* Pods_JKCaptionsHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKCaptionsHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0372CC088F2C39BFBB2F6A2D58CFDA0 /* Pods_JKCaptionsHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JKCaptionsHelper_Tests.framework; path = "Pods-JKCaptionsHelper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFDD7F3F9ECF9AE118BA1B2E5FA5665 /* JKCaptionsHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JKCaptionsHelper-Info.plist"; sourceTree = "<group>"; };
 		C29B2F211DFCF1E60F0E65B025F469EB /* Pods-JKCaptionsHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKCaptionsHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C4B72034E3F3F3E0994433B4C344F586 /* Pods-JKCaptionsHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKCaptionsHelper_Example-dummy.m"; sourceTree = "<group>"; };
 		C93076927BBB657D0E4B99F1AF2AAB43 /* JKCaptionsHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKCaptionsHelper-prefix.pch"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CF302FA5F9CD3ACDC51925B2C35CA735 /* Pods-JKCaptionsHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKCaptionsHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D365AE0604F28006DBE44DD8C13306BC /* JKCaptionsHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JKCaptionsHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D365AE0604F28006DBE44DD8C13306BC /* JKCaptionsHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JKCaptionsHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D3C8F73E0C6D71C64C4CB0AD2CE99DEA /* Pods-JKCaptionsHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKCaptionsHelper_Tests-dummy.m"; sourceTree = "<group>"; };
 		DD8C1094AF75BA253C6A7A49FFF3676E /* Pods-JKCaptionsHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKCaptionsHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DF861BD9BA9BAF605EE6274880175CB0 /* Pods-JKCaptionsHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKCaptionsHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -314,14 +314,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -404,7 +403,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		398BE631E1C879933F8C8D0394FF62DE /* Debug */ = {
+		002F33DC14810D9E0BA3DB864E2DC341 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 807737405B61928CC394DBC4A67DD69F /* JKCaptionsHelper.xcconfig */;
 			buildSettings = {
@@ -428,12 +427,44 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		287C269957212BA04108C39032155B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 807737405B61928CC394DBC4A67DD69F /* JKCaptionsHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JKCaptionsHelper/JKCaptionsHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JKCaptionsHelper/JKCaptionsHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JKCaptionsHelper/JKCaptionsHelper.modulemap";
+				PRODUCT_MODULE_NAME = JKCaptionsHelper;
+				PRODUCT_NAME = JKCaptionsHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		5A5C6A5370AC82008F3618C12E806C5B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -505,7 +536,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -600,38 +630,6 @@
 			};
 			name = Release;
 		};
-		BE5AA7133E5C8A8B9DEAEE8B4C1DF512 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 807737405B61928CC394DBC4A67DD69F /* JKCaptionsHelper.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JKCaptionsHelper/JKCaptionsHelper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JKCaptionsHelper/JKCaptionsHelper-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JKCaptionsHelper/JKCaptionsHelper.modulemap";
-				PRODUCT_MODULE_NAME = JKCaptionsHelper;
-				PRODUCT_NAME = JKCaptionsHelper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		E544FBDC5BBBF710D98B495C08D2745B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DD8C1094AF75BA253C6A7A49FFF3676E /* Pods-JKCaptionsHelper_Tests.release.xcconfig */;
@@ -670,7 +668,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -720,7 +717,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -759,8 +757,8 @@
 		5E22664D350C196553A5A9771F550D78 /* Build configuration list for PBXNativeTarget "JKCaptionsHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				398BE631E1C879933F8C8D0394FF62DE /* Debug */,
-				BE5AA7133E5C8A8B9DEAEE8B4C1DF512 /* Release */,
+				002F33DC14810D9E0BA3DB864E2DC341 /* Debug */,
+				287C269957212BA04108C39032155B86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,5 +1,5 @@
 PODS:
-  - JKCaptionsHelper (0.1.0)
+  - JKCaptionsHelper (0.1.2)
 
 DEPENDENCIES:
   - JKCaptionsHelper (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JKCaptionsHelper: 2858822e79b5cdb480b99422e2dc707823fa4da7
+  JKCaptionsHelper: 4fdffd3a9e61fd43a5f4273e90649197a64b724c
 
 PODFILE CHECKSUM: 4db2430810578281d833eebe7c87edd59f3b2111
 
